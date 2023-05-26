@@ -1,27 +1,30 @@
 function initTransition() {
 	const transition_el = document.querySelector('.transition');
 	const anchors = document.querySelectorAll('a');
- 
+  
 	setTimeout(() => {
-	   transition_el.classList.remove('is-active');
+	  transition_el.classList.remove('is-active');
 	}, 500);
- 
+  
 	for (let i = 0; i < anchors.length; i++) {
-	   const anchor = anchors[i];
- 
-	   anchor.addEventListener('click', e => {
+	  const anchor = anchors[i];
+  
+	  anchor.addEventListener('click', e => {
+		let target = e.target.getAttribute('href');
+  
+		// Exclude specific links from triggering the animation
+		if (target !== '#commercial' && target !== '#interior' && target !== '#exterior') {
 		  e.preventDefault();
-		  let target = e.target.href;
- 
 		  transition_el.classList.add('is-active');
- 
+  
 		  setTimeout(() => {
-			 window.location.href = target;
+			window.location.href = target;
 		  }, 500);
-	   });
+		}
+	  });
 	}
-}
- 
+}  
+  
 function animateText() {
 	const txts = document.querySelector(".animate-text").children;
 	const txtsLen = txts.length;
@@ -58,7 +61,7 @@ function animateText() {
  
 function initScrollUpButton() {
 	window.onscroll = function () {
-	   scrollFunction()
+	   scrollFunction();
 	};
  
 	function scrollFunction() {
