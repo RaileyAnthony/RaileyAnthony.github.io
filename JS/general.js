@@ -12,7 +12,6 @@ function initTransition() {
 	  anchor.addEventListener('click', e => {
 		let target = e.target.getAttribute('href');
   
-		// Exclude specific links from triggering the animation
 		if (target !== '#commercial' && target !== '#interior' && target !== '#exterior') {
 		  e.preventDefault();
 		  transition_el.classList.add('is-active');
