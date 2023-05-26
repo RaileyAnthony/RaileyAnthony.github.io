@@ -82,7 +82,7 @@
 
 .abtusbackground {
 	width: 100%;
-	height: 85vh;
+	height: 75vh;
 	overflow: hidden;
 }
 
@@ -126,6 +126,11 @@
 }
 
 @media (max-width: 912px) {
+	.abtusbackground{
+		width: 100%;
+		height: 85vh;
+		overflow: hidden;
+	}
 	.abtheader {
 		top: 40%;
 		left: 50%;
@@ -908,8 +913,8 @@ img {
 }
 
 .team-item .social-links a:hover {
-	color: var(--pink);
-	border-color: var(--pink);
+	color: var(--light-purple);
+	border-color: var(--light-purple);
 }
 
 @media(max-width: 991px) {
