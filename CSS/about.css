@@ -125,6 +125,30 @@
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+@media (max-width: 1126px) {
+	.abtusbackground{
+		width: 100%;
+		height: 85vh;
+		overflow: hidden;
+	}
+	.abtheader {
+		top: 40%;
+		left: 50%;
+		transform: translate(-80%, -50%);
+	}
+
+	.intro {
+		width: 100%;
+		font-size: 30px;
+	}
+
+	.subtext {
+		width: 100%;
+		text-align: left;
+		font-size: 15px;
+	}
+}
+
 @media (max-width: 912px) {
 	.abtusbackground{
 		width: 100%;
