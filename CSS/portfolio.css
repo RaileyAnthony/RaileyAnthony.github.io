@@ -68,11 +68,12 @@
 	.core h1 {
 		font-size: 25px;
 		margin-bottom: 10px;
+		margin-right: 80px;
 	}
 
 	.core h1:before,
 	.core h1:after {
-		width: 20px;
+		width: 0px;
 	}
 
 	.core p {
@@ -309,7 +310,7 @@
 
 	.project h1:before,
 	.project h1:after {
-		width: 10px;
+		width: 0px;
 	}
 
 	.project.core p {
@@ -440,7 +441,7 @@
 		margin: 10px 0;
 	}
 
-	.overlay-contet {
+	.overlay-content {
 		font-size: 12px;
 	}
 }
