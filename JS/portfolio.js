@@ -1,3 +1,4 @@
+//Start of function for page transition
 function initTransition() {
 	const transition_el = document.querySelector('.transition');
 	const anchors = document.querySelectorAll('a');
@@ -21,7 +22,9 @@ function initTransition() {
 	   });
 	}
 }
- 
+//End of function for page transition
+
+//Start of function for comparison slider
 function initComparisonSlider() {
 	const slider = document.querySelector(".comparison-slider input");
 	const img = document.querySelector(".comparison-images .img-2");
@@ -33,7 +36,9 @@ function initComparisonSlider() {
 	   img.style.width = sliderVal + "%";
 	}
 }
- 
+//End of function for comparison slider
+
+//Start of function for filterable image gallery
 function initFilterButtons() {
 	const filterBtns = document.querySelectorAll('.filter-btn');
 	const portfolioItems = document.querySelectorAll('.portfolio-item');
@@ -56,7 +61,9 @@ function initFilterButtons() {
 	   });
 	});
 }
+//End of function for filterable image gallery
 
+//Start of function for scroll-up button 
 function initScrollUpButton() {
 	window.onscroll = function () {
 	   scrollFunction()
@@ -79,22 +86,14 @@ function initScrollUpButton() {
 	const scrollupButton = document.getElementById("scrollup");
 	scrollupButton.addEventListener("click", scrollToTop);
 }
- 
-window.onload = function () {
-	initTransition();
-	initComparisonSlider();
-	initScrollUpButton();
-};
- 
-document.addEventListener('DOMContentLoaded', function () {
-	initFilterButtons();
-});
- 
+//End of function for scroll-up button 
+
 window.addEventListener("scroll", function () {
 	var header = document.querySelector("header");
 	header.classList.toggle("sticky", window.scrollY > 0);
 });
  
+//Start of function to reveal content on scroll animation
 window.addEventListener('scroll', reveal);
  
  function reveal() {
@@ -111,7 +110,9 @@ window.addEventListener('scroll', reveal);
 	   }
 	}
 }
- 
+//End of function to reveal content on scroll animation
+
+//Start of function for dropdown menu
 const toggleBtn = document.querySelector('.toggle_btn');
 const toggleBtnIcon = document.querySelector('.toggle_btn i');
 const dropDownMenu = document.querySelector('.dropdown_menu');
@@ -120,3 +121,17 @@ toggleBtn.onclick = function () {
 	const isOpen = dropDownMenu.classList.contains('open');
 	toggleBtnIcon.classList = isOpen ? 'fas fa-xmark' : 'fas fa-bars';
 };
+//End of function for dropdown menu
+
+//Runs the functions when page loads
+window.onload = function () {
+	initTransition();
+	initComparisonSlider();
+	initScrollUpButton();
+};
+
+//Runs the functions when the DOM content is loaded
+document.addEventListener('DOMContentLoaded', function () {
+	initFilterButtons();
+});
+ 
