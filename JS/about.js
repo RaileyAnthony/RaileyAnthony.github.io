@@ -1,3 +1,4 @@
+//Start of function to reveal content on scroll animation
 window.addEventListener('scroll', reveal);
 
 function reveal() {
@@ -14,13 +15,16 @@ function reveal() {
       }
    }
 }
+//End of function to reveal content on scroll animation
 
-
+//Start of function for sticky  navbar
 window.addEventListener("scroll", function () {
    var header = document.querySelector("header");
    header.classList.toggle("sticky", window.scrollY > 0);
 });
+//End of function for sticky navbar 
 
+//Start of function for dropdown menu
 const toggleBtn = document.querySelector('.toggle_btn');
 const toggleBtnIcon = document.querySelector('.toggle_btn i');
 const dropDownMenu = document.querySelector('.dropdown_menu');
@@ -30,7 +34,9 @@ toggleBtn.onclick = function () {
 
    toggleBtnIcon.classList = isOpen ? 'fas fa-xmark' : 'fas fa-bars';
 };
+//End of function for dropdown menu
 
+//Start of function for counter-up animation
 const counters = document.querySelectorAll(".counters span");
 const container = document.querySelector(".counters");
 
@@ -65,3 +71,4 @@ window.addEventListener("scroll", () => {
       activated = false;
    }
 });
+//End of function for counter-up animation
