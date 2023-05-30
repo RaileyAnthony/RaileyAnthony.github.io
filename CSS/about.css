@@ -333,6 +333,7 @@
 
 
 /*End of about us section*/
+
 /*Start of timeline section*/
 .abtus {
 	display: flex;
@@ -524,6 +525,7 @@
 }
 
 /*End of timeline section*/
+
 /*Start of sliding text animation*/
 .whyus-container {
 	max-width: 1170px;
@@ -653,6 +655,7 @@
 }
 
 /*End of sliding text animation*/
+
 /*Start of quick statistics section*/
 .counters {
 	padding: 3em 2em;
@@ -728,6 +731,7 @@
 }
 
 /*End of quick statistics section*/
+
 /*Start of our team section*/
 .testimonials {
 	display: flex;
@@ -952,5 +956,4 @@ img {
 		width: calc(100% - 30px);
 	}
 }
-
 /*End of our team section*/
