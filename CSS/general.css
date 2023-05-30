@@ -63,6 +63,7 @@ html {
 }
 
 /*End of page transition*/
+
 /*Start of custom scrollbar*/
 ::-webkit-scrollbar {
 	width: 10px;
@@ -78,6 +79,7 @@ html {
 }
 
 /*End of custom scrollbar*/
+
 /*Start of reveal transition*/
 .reveal {
 	position: relative;
@@ -92,6 +94,7 @@ html {
 }
 
 /*End of reveal transition*/
+
 /*Start of navigation bar*/
 header {
 	position: fixed;
@@ -356,9 +359,8 @@ header.sticky {
 	}
 
 }
-
-
 /*End of navigation bar*/
+
 /*Start of footer section*/
 .container {
 	max-width: 1170px;
@@ -514,5 +516,4 @@ ul {
 	text-align: center;
 	color: #eff2ee;
 }
-
 /*End of footer section*/
