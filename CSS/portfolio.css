@@ -1,4 +1,4 @@
-/*Start of comparsion section*/
+/*Start of comparison section*/
 .core {
 	display: flex;
 	flex-direction: column;
@@ -235,8 +235,7 @@
 		width: 24px;
 	}
 }
-
-/*End of comparsion section*/
+/*End of comparison section*/
 
 /*Start of portfolio section*/
 .project {
