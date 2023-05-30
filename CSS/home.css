@@ -211,7 +211,6 @@
 		padding: 2px;
 	}
 }
-
 /*End of title page*/
 
 /*Start of about us section*/
@@ -458,7 +457,6 @@
 		padding-left: 13px;
 	}
 }
-
 /*End of about us section*/
 
 /*Start of sliding text animation*/
@@ -589,7 +587,6 @@
 		}
 	}
 }
-
 /*End of sliding text animation*/
 
 /*Start of quick statistics section*/
@@ -665,7 +662,6 @@
 		transform: translateX(-50%);
 	}
 }
-
 /*End of quick statistics section*/
 
 /*Start of our services section*/
@@ -780,7 +776,6 @@ h3.space {
 	background-attachment: fixed;
 	padding: 50px;
 }
-
 /*End of our services section*/
 
 /*Start of our projects section*/
@@ -867,7 +862,6 @@ h3.space {
 		font-size: 12px;
 	}
 }
-
 /*End of our projects section*/
 
 /*Start of testimonials section*/
@@ -1093,7 +1087,6 @@ section {
 	filter: grayscale(0);
 	transform: scale(1.06);
 }
-
 /*End of testimonials section*/
 
 /*Start of FAQs section*/
@@ -1168,7 +1161,6 @@ svg {
 		transform: translateY(0px);
 	}
 }
-
 /*End of FAQs section*/
 
 /*Start of contact us section*/
