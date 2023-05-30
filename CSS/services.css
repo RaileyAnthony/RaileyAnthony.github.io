@@ -87,7 +87,7 @@
 
 	.abtus h1:before,
 	.abtus h1:after {
-		width: 10px;
+		width: 0px;
 	}
 
 	.abtus p {
@@ -627,7 +627,7 @@ h3.space {
 
 	.testimonials h1:before,
 	.testimonials h1:after {
-		width: 10px;
+		width: 0px;
 	}
 
 	.testimonials p {
@@ -745,5 +745,4 @@ svg {
 		transform: translateY(0px);
 	}
 }
-
 /*End of FAQs section*/
