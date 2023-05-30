@@ -237,6 +237,7 @@
 }
 
 /*End of comparsion section*/
+
 /*Start of portfolio section*/
 .project {
 	display: flex;
@@ -445,5 +446,4 @@
 		font-size: 12px;
 	}
 }
-
 /*End of portfolio section*/
