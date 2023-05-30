@@ -1,8 +1,11 @@
+//Start of function for sticky navbar
 window.addEventListener("scroll", function () {
 	var header = document.querySelector("header");
 	header.classList.toggle("sticky", window.scrollY > 0);
 });
- 
+//End of function for sticky navbar
+
+//Start of function for dropdown menu
 const toggleBtn = document.querySelector('.toggle_btn');
 const toggleBtnIcon = document.querySelector('.toggle_btn i');
 const dropDownMenu = document.querySelector('.dropdown_menu');
@@ -11,7 +14,9 @@ toggleBtn.onclick = function () {
 	const isOpen = dropDownMenu.classList.contains('open');
 	toggleBtnIcon.classList = isOpen ? 'fas fa-xmark' : 'fas fa-bars';
 };
- 
+//End of function for dropdown menu
+
+//Start of function for swiper slider
 var swiper = new Swiper(".mySwiper", {
 	effect: "coverflow",
 	grabCursor: true,
@@ -28,7 +33,9 @@ var swiper = new Swiper(".mySwiper", {
 	   prevEl: '.swiper-button-prev',
 	}
 });
+//End of function for swiper slider
 
+//Start of function fro scroll-up button
 function initScrollUpButton() {
 	window.onscroll = function () {
 	   scrollFunction()
@@ -53,3 +60,4 @@ function initScrollUpButton() {
 }
 
 initScrollUpButton();
+//End of function fro scroll-up button
