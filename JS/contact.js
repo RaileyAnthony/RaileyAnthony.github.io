@@ -1,3 +1,4 @@
+//Start of function for scroll-up button 
 function initScrollUpButton() {
 	window.onscroll = function () {
 	   scrollFunction()
@@ -22,3 +23,4 @@ function initScrollUpButton() {
 }
 
 initScrollUpButton();
+//End of function for scroll-up button
