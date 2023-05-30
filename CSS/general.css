@@ -41,7 +41,6 @@ html {
 #scrollup.show {
 	display: block;
 }
-
 /*End of scroll up button*/
 
 /*Start of page transition*/
@@ -61,7 +60,6 @@ html {
 .transition-slide.is-active {
 	left: 0px;
 }
-
 /*End of page transition*/
 
 /*Start of custom scrollbar*/
@@ -77,7 +75,6 @@ html {
 ::-webkit-scrollbar-thumb:hover {
 	background: #9A85A6;
 }
-
 /*End of custom scrollbar*/
 
 /*Start of reveal transition*/
@@ -92,7 +89,6 @@ html {
 	transform: translateY(0px);
 	opacity: 1;
 }
-
 /*End of reveal transition*/
 
 /*Start of navigation bar*/
